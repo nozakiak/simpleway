@@ -91,8 +91,8 @@ if (!isset($inquiry_data['token']) || $inquiry_data['token'] !== getToken()) {
                                         <td><?php echo $message; ?></td>
                                     </tr>
                                 </table>
-                                <p><input type="submit" onclick="action = 'index.php';" value="修正"></p>
-                                <p><input type="submit" value="送信"></p>
+                                <p><input type="submit" class="btn btn-default" onclick="action = 'index.php';" value="修正"></p>
+                                <p><input type="submit" class="btn btn-default" value="送信"></p>
                                 <input type="hidden" name="act" value="3">
                             </div>
                         </form>
